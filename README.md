@@ -5,7 +5,7 @@ This project is something i like to create with every new language that i learn,
 
 
 ### Compile and run
-in order to run you must have nim installed, which can be done using your system's package manager or manually installed via the instructions on nim's website <br>
-macOs users use homebrew: `brew install nim` 
+In order to run you must have Nim installed, which can be done using your system's package manager or manually installed via the instructions on Nim's website. <br>
+MacOs users use homebrew: `brew install nim` 
 
 with nim, `cd` into this project directory and execute `nim c -r main.nim` to compile and run
