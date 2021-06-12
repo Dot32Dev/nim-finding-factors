@@ -8,13 +8,17 @@ var num: int
 while true:
 	echo "Please input your number:"
 	var input = readLine(stdin)
-
 	try: 
 		num = parseInt(input)
 		break
 	except:
 		echo "That is not a valid number!"
 
-echo num
+echo ""
+for i in 1..num+1:
+	if num mod i == 0:
+		echo $(num div i) & " x " & $i
+
+echo "\e[2m" & "All factors have been found" & "\e[0m"
 
 # nim c -r main.nim
